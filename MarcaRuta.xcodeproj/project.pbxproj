@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A903BD391CD5079900C7BF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903BD381CD5079900C7BF2F /* AppDelegate.swift */; };
+		A903BD3B1CD5079900C7BF2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903BD3A1CD5079900C7BF2F /* ViewController.swift */; };
+		A903BD3E1CD5079900C7BF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A903BD3C1CD5079900C7BF2F /* Main.storyboard */; };
+		A903BD401CD5079900C7BF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A903BD3F1CD5079900C7BF2F /* Assets.xcassets */; };
+		A903BD431CD5079900C7BF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A903BD411CD5079900C7BF2F /* LaunchScreen.storyboard */; };
+		A903BD4E1CD5079A00C7BF2F /* MarcaRutaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903BD4D1CD5079A00C7BF2F /* MarcaRutaTests.swift */; };
+		A903BD591CD5079A00C7BF2F /* MarcaRutaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903BD581CD5079A00C7BF2F /* MarcaRutaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A903BD4A1CD5079A00C7BF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A903BD2D1CD5079900C7BF2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A903BD341CD5079900C7BF2F;
+			remoteInfo = MarcaRuta;
+		};
+		A903BD551CD5079A00C7BF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A903BD2D1CD5079900C7BF2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A903BD341CD5079900C7BF2F;
+			remoteInfo = MarcaRuta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A903BD351CD5079900C7BF2F /* MarcaRuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcaRuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A903BD381CD5079900C7BF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A903BD3A1CD5079900C7BF2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A903BD3D1CD5079900C7BF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A903BD3F1CD5079900C7BF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A903BD421CD5079900C7BF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A903BD441CD5079A00C7BF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A903BD491CD5079A00C7BF2F /* MarcaRutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcaRutaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A903BD4D1CD5079A00C7BF2F /* MarcaRutaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcaRutaTests.swift; sourceTree = "<group>"; };
+		A903BD4F1CD5079A00C7BF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A903BD541CD5079A00C7BF2F /* MarcaRutaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcaRutaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A903BD581CD5079A00C7BF2F /* MarcaRutaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcaRutaUITests.swift; sourceTree = "<group>"; };
+		A903BD5A1CD5079A00C7BF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A903BD321CD5079900C7BF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903BD461CD5079A00C7BF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903BD511CD5079A00C7BF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A903BD2C1CD5079900C7BF2F = {
+			isa = PBXGroup;
+			children = (
+				A903BD371CD5079900C7BF2F /* MarcaRuta */,
+				A903BD4C1CD5079A00C7BF2F /* MarcaRutaTests */,
+				A903BD571CD5079A00C7BF2F /* MarcaRutaUITests */,
+				A903BD361CD5079900C7BF2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A903BD361CD5079900C7BF2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A903BD351CD5079900C7BF2F /* MarcaRuta.app */,
+				A903BD491CD5079A00C7BF2F /* MarcaRutaTests.xctest */,
+				A903BD541CD5079A00C7BF2F /* MarcaRutaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A903BD371CD5079900C7BF2F /* MarcaRuta */ = {
+			isa = PBXGroup;
+			children = (
+				A903BD381CD5079900C7BF2F /* AppDelegate.swift */,
+				A903BD3A1CD5079900C7BF2F /* ViewController.swift */,
+				A903BD3C1CD5079900C7BF2F /* Main.storyboard */,
+				A903BD3F1CD5079900C7BF2F /* Assets.xcassets */,
+				A903BD411CD5079900C7BF2F /* LaunchScreen.storyboard */,
+				A903BD441CD5079A00C7BF2F /* Info.plist */,
+			);
+			path = MarcaRuta;
+			sourceTree = "<group>";
+		};
+		A903BD4C1CD5079A00C7BF2F /* MarcaRutaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A903BD4D1CD5079A00C7BF2F /* MarcaRutaTests.swift */,
+				A903BD4F1CD5079A00C7BF2F /* Info.plist */,
+			);
+			path = MarcaRutaTests;
+			sourceTree = "<group>";
+		};
+		A903BD571CD5079A00C7BF2F /* MarcaRutaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A903BD581CD5079A00C7BF2F /* MarcaRutaUITests.swift */,
+				A903BD5A1CD5079A00C7BF2F /* Info.plist */,
+			);
+			path = MarcaRutaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A903BD341CD5079900C7BF2F /* MarcaRuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903BD5D1CD5079A00C7BF2F /* Build configuration list for PBXNativeTarget "MarcaRuta" */;
+			buildPhases = (
+				A903BD311CD5079900C7BF2F /* Sources */,
+				A903BD321CD5079900C7BF2F /* Frameworks */,
+				A903BD331CD5079900C7BF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarcaRuta;
+			productName = MarcaRuta;
+			productReference = A903BD351CD5079900C7BF2F /* MarcaRuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A903BD481CD5079A00C7BF2F /* MarcaRutaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903BD601CD5079A00C7BF2F /* Build configuration list for PBXNativeTarget "MarcaRutaTests" */;
+			buildPhases = (
+				A903BD451CD5079A00C7BF2F /* Sources */,
+				A903BD461CD5079A00C7BF2F /* Frameworks */,
+				A903BD471CD5079A00C7BF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A903BD4B1CD5079A00C7BF2F /* PBXTargetDependency */,
+			);
+			name = MarcaRutaTests;
+			productName = MarcaRutaTests;
+			productReference = A903BD491CD5079A00C7BF2F /* MarcaRutaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A903BD531CD5079A00C7BF2F /* MarcaRutaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903BD631CD5079A00C7BF2F /* Build configuration list for PBXNativeTarget "MarcaRutaUITests" */;
+			buildPhases = (
+				A903BD501CD5079A00C7BF2F /* Sources */,
+				A903BD511CD5079A00C7BF2F /* Frameworks */,
+				A903BD521CD5079A00C7BF2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A903BD561CD5079A00C7BF2F /* PBXTargetDependency */,
+			);
+			name = MarcaRutaUITests;
+			productName = MarcaRutaUITests;
+			productReference = A903BD541CD5079A00C7BF2F /* MarcaRutaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A903BD2D1CD5079900C7BF2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adrian Camacho Soriano acaso";
+				TargetAttributes = {
+					A903BD341CD5079900C7BF2F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A903BD481CD5079A00C7BF2F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A903BD341CD5079900C7BF2F;
+					};
+					A903BD531CD5079A00C7BF2F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A903BD341CD5079900C7BF2F;
+					};
+				};
+			};
+			buildConfigurationList = A903BD301CD5079900C7BF2F /* Build configuration list for PBXProject "MarcaRuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A903BD2C1CD5079900C7BF2F;
+			productRefGroup = A903BD361CD5079900C7BF2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A903BD341CD5079900C7BF2F /* MarcaRuta */,
+				A903BD481CD5079A00C7BF2F /* MarcaRutaTests */,
+				A903BD531CD5079A00C7BF2F /* MarcaRutaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A903BD331CD5079900C7BF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903BD431CD5079900C7BF2F /* LaunchScreen.storyboard in Resources */,
+				A903BD401CD5079900C7BF2F /* Assets.xcassets in Resources */,
+				A903BD3E1CD5079900C7BF2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903BD471CD5079A00C7BF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903BD521CD5079A00C7BF2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A903BD311CD5079900C7BF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903BD3B1CD5079900C7BF2F /* ViewController.swift in Sources */,
+				A903BD391CD5079900C7BF2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903BD451CD5079A00C7BF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903BD4E1CD5079A00C7BF2F /* MarcaRutaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903BD501CD5079A00C7BF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A903BD591CD5079A00C7BF2F /* MarcaRutaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A903BD4B1CD5079A00C7BF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A903BD341CD5079900C7BF2F /* MarcaRuta */;
+			targetProxy = A903BD4A1CD5079A00C7BF2F /* PBXContainerItemProxy */;
+		};
+		A903BD561CD5079A00C7BF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A903BD341CD5079900C7BF2F /* MarcaRuta */;
+			targetProxy = A903BD551CD5079A00C7BF2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A903BD3C1CD5079900C7BF2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A903BD3D1CD5079900C7BF2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A903BD411CD5079900C7BF2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A903BD421CD5079900C7BF2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A903BD5B1CD5079A00C7BF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A903BD5C1CD5079A00C7BF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A903BD5E1CD5079A00C7BF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarcaRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.MarcaRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A903BD5F1CD5079A00C7BF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarcaRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.MarcaRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A903BD611CD5079A00C7BF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarcaRutaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.MarcaRutaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarcaRuta.app/MarcaRuta";
+			};
+			name = Debug;
+		};
+		A903BD621CD5079A00C7BF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarcaRutaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.MarcaRutaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarcaRuta.app/MarcaRuta";
+			};
+			name = Release;
+		};
+		A903BD641CD5079A00C7BF2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarcaRutaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.MarcaRutaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarcaRuta;
+			};
+			name = Debug;
+		};
+		A903BD651CD5079A00C7BF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarcaRutaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso.MarcaRutaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarcaRuta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A903BD301CD5079900C7BF2F /* Build configuration list for PBXProject "MarcaRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903BD5B1CD5079A00C7BF2F /* Debug */,
+				A903BD5C1CD5079A00C7BF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A903BD5D1CD5079A00C7BF2F /* Build configuration list for PBXNativeTarget "MarcaRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903BD5E1CD5079A00C7BF2F /* Debug */,
+				A903BD5F1CD5079A00C7BF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A903BD601CD5079A00C7BF2F /* Build configuration list for PBXNativeTarget "MarcaRutaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903BD611CD5079A00C7BF2F /* Debug */,
+				A903BD621CD5079A00C7BF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A903BD631CD5079A00C7BF2F /* Build configuration list for PBXNativeTarget "MarcaRutaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A903BD641CD5079A00C7BF2F /* Debug */,
+				A903BD651CD5079A00C7BF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A903BD2D1CD5079900C7BF2F /* Project object */;
+}

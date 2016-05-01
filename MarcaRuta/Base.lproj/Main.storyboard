@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MarcaRuta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Kts-d2-b1B">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="535"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hE-p1-sva">
+                                <rect key="frame" x="274" y="550" width="52" height="30"/>
+                                <state key="normal" title="Satelite"/>
+                                <connections>
+                                    <action selector="mapaSatelite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OIi-iP-Qnm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYI-3u-iIc">
+                                <rect key="frame" x="532" y="550" width="51" height="30"/>
+                                <state key="normal" title="Hibrido"/>
+                                <connections>
+                                    <action selector="mapaHibrido:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8jv-wG-oeZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRe-pG-dCi">
+                                <rect key="frame" x="20" y="550" width="50" height="30"/>
+                                <state key="normal" title="Normal"/>
+                                <connections>
+                                    <action selector="mapaNormal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VMH-dD-8An"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="NYI-3u-iIc" secondAttribute="trailing" constant="-3" id="5H1-e9-mcr"/>
+                            <constraint firstItem="Kts-d2-b1B" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="8Sv-Q8-7R1"/>
+                            <constraint firstItem="Kts-d2-b1B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="CWe-Jj-pEu"/>
+                            <constraint firstItem="YRe-pG-dCi" firstAttribute="baseline" secondItem="9hE-p1-sva" secondAttribute="baseline" id="VVd-13-h5R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kts-d2-b1B" secondAttribute="bottom" constant="65" id="ZEv-MR-kP0"/>
+                            <constraint firstItem="9hE-p1-sva" firstAttribute="baseline" secondItem="NYI-3u-iIc" secondAttribute="baseline" id="ZHv-dx-vdg"/>
+                            <constraint firstItem="9hE-p1-sva" firstAttribute="centerX" secondItem="Kts-d2-b1B" secondAttribute="centerX" id="hrn-LT-mUs"/>
+                            <constraint firstItem="Kts-d2-b1B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="j6Z-7y-f5f"/>
+                            <constraint firstAttribute="bottom" secondItem="YRe-pG-dCi" secondAttribute="bottom" constant="20" symbolic="YES" id="pVQ-PE-mYD"/>
+                            <constraint firstItem="YRe-pG-dCi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wBp-md-lnN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapa" destination="Kts-d2-b1B" id="uRg-mM-jtq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="375"/>
+        </scene>
+    </scenes>
+</document>
